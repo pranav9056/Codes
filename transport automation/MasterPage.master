@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage"  %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body >
+    <form id="form1" runat="server" style="background-color:white">
+    <div >
+        <asp:Image ID="Image1" runat="server" ImageURL="1.png"   />
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <asp:Image ID="image3" runat="server" ImageURL="Untitled1.png" Height="33px" Width="184px"   />
+       
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <asp:ImageButton ID="ImageButton1" runat="server" BackColor="Transparent" Width="98px" BorderColor="Black" Height="39px" AlternateText="Home" ImageUrl="~/home.png" BorderStyle="Solid" BorderWidth="3PX" OnClick="ImageButton1_Click" CausesValidation="false" />
+       <asp:ImageButton ID="ImageButton2" runat="server" BackColor="Transparent" Width="98px" BorderColor="Black" Height="39px" AlternateText="ABOUT US" ImageUrl="~/about.png" BorderStyle="Solid" BorderWidth="3PX" OnClick="ImageButton2_Click" CausesValidation="false" />
+         <asp:ImageButton ID="ImageButton5" runat="server" BackColor="Transparent" Width="98px" BorderColor="Black" Height="39px" ImageUrl="~/C2.png" BorderStyle="Solid" BorderWidth="3PX" OnClick="ImageButton5_Click" CausesValidation="false" />
+        
+        <asp:ImageButton ID="ImageButton3" runat="server" BackColor="Transparent" Width="98px" BorderColor="Black" Height="39px" ImageUrl="~/login.png" BorderStyle="Solid" BorderWidth="3PX" OnClick="ImageButton3_Click" CausesValidation="false" />
+       <asp:ImageButton ID="ImageButton4" runat="server" BackColor="Transparent" Width="98px" BorderColor="Black" Height="39px" ImageUrl="~/sign.png" BorderStyle="Solid" BorderWidth="3PX" CausesValidation="false" OnClick="ImageButton4_Click"/>
+       
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+        <asp:Image ID="Image2" runat="server" ImageUrl="~/footerf.png" Width="1337px" />
+    </div>
+    </form>
+</body>
+</html>
