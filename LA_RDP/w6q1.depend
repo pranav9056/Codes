@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1428281391 source:c:\users\pranav\downloads\algo\w6q1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"la.h"
+
+1428281389 c:\users\pranav\downloads\algo\w6q1\la.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
